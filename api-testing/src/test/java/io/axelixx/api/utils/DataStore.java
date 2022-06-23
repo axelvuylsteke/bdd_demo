@@ -17,4 +17,5 @@ public class DataStore {
     private @Getter @Setter String accessToken;
     private @Getter @Setter
     Response userStatsResponse;
+    private @Getter @Setter Response loggedInAthleteDataResponse;
 }
